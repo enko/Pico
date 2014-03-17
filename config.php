@@ -4,6 +4,8 @@
 // Override any of the default settings below:
 
 $config['site_title'] = 'datenknoten.me';			// Site title
+$config['pages_order_by'] = 'alpha';	// Order pages by "alpha" or "date"
+$config['pages_order'] = 'asc';			// Order pages "asc" or "desc"
 
 /*
 $config['base_url'] = ''; 				// Override base URL (e.g. http://example.com)
@@ -14,8 +16,7 @@ $config['twig_config'] = array(			// Twig settings
 	'autoescape' => false,				// Autoescape Twig vars
 	'debug' => false					// Enable Twig debug
 );
-$config['pages_order_by'] = 'alpha';	// Order pages by "alpha" or "date"
-$config['pages_order'] = 'asc';			// Order pages "asc" or "desc"
+
 $config['excerpt_length'] = 50;			// The pages excerpt length (in words)
 
 // To add a custom config setting:
