@@ -34,7 +34,7 @@ class Pico {
 
 		// Get our url path and trim the / of the left and the right
 		if($request_url != $script_url) $url = trim(preg_replace('/'. str_replace('/', '\/', str_replace('index.php', '', $script_url)) .'/', '', $request_url, 1), '/');
-		$url = preg_replace('/\?.*/', '', $url); // Strip query string
+		$url = urldecode(preg_replace('/\?.*/', '', $url)); // Strip query string
 		$this->run_hooks('request_url', array(&$url));
 
 		// Get the file path
