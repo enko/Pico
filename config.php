@@ -5,7 +5,7 @@
 
 $config['site_title'] = 'datenknoten.me';			// Site title
 $config['pages_order_by'] = 'alpha';	// Order pages by "alpha" or "date"
-$config['pages_order'] = 'asc';			// Order pages "asc" or "desc"
+$config['pages_order'] = 'desc';			// Order pages "asc" or "desc"
 
 /*
 $config['base_url'] = ''; 				// Override base URL (e.g. http://example.com)
