@@ -1,9 +1,11 @@
 <?php 
 
-/*
+
 // Override any of the default settings below:
 
-$config['site_title'] = 'Pico';			// Site title
+$config['site_title'] = 'datenknoten.me';			// Site title
+
+/*
 $config['base_url'] = ''; 				// Override base URL (e.g. http://example.com)
 $config['theme'] = 'default'; 			// Set the theme (defaults to "default")
 $config['date_format'] = 'jS M Y';		// Set the PHP date format
