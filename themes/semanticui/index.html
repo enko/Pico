@@ -16,6 +16,15 @@
 	
 	<script src="{{ theme_url }}/javascripts/modernizr-2.6.1.min.js"></script>
     <script src="{{ theme_url }}/javascript/semantic.min.js"></script>
+    {% if current_page.title == "Chat" %}
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ theme_url }}/javascript/candy/libs.min.js"></script>
+    <script src="{{ theme_url }}/javascript/candy/candy.min.js"></script>
+    <script src="{{ theme_url }}/javascript/candy/init.js"></script>
+
+    <link rel="stylesheet" href="{{ theme_url }}/css/candy/default.css" />
+
+    {% endif %}
 </head>
 <body>
     <div class="ui large vertical inverted labeled icon sidebar menu active">
