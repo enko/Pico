@@ -9,7 +9,7 @@ Ich habe meistens einige Kopien der Liste bei mir und kann dir im Meatspace eine
 
 ### GPG/PGP
 
-[Öffentlicher Schlüssel](http://pgp.mit.edu/pks/lookup?op=get&search=0x07740725A83DCDBB)
+[Öffentlicher Schlüssel](http://pgp.mit.edu/pks/lookup?op=get&search=0x07740725A83DCDBB)  
 Fingerabdruck: 9055 4415 45C7 4387 9E80  1E90 0774 0725 A83D CDBB
 
 ### SSL
