@@ -3,7 +3,7 @@ Title: XMPP
 Description: Informationen zu dem XMPP-Dienst.
 */
 
-# XMPP
+## XMPP
 
 Als Dienst für XMPP benutze ich [prosody.im](http://prosody.im).
 

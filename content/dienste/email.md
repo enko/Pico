@@ -3,12 +3,12 @@ Title: E-Mail
 Description: Informationen zu den E-Mail-Diensten.
 */
 
-# E-Mail
+## E-Mail
 
-## SMTP
+### SMTP
 
 Als Dienst für SMTP wird [Postfix](http://www.postfix.org/) benutzt.
 
-## IMAP
+### IMAP
 
 Als Dienst für IMAP wird [Dovecot](http://www.dovecot.org/) benutzt.
