@@ -13,7 +13,7 @@ $(document).ready(function() {
         view: { resources: '/themes/semanticui/candy/' }
     });
 
-    Candy.Core.connect('anon.datenknoten.me');
+    Candy.Core.connect('anon-xmpp.datenknoten.me');
 
     /**
      * Thanks for trying Candy!

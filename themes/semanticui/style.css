@@ -10,6 +10,12 @@ body {
     margin-left: 300px !important;
 }
 
+#candy,
+#candy .message-form-wrapper,
+#candy .message-form {
+    margin-left: 275px !important;
+}
+
 .ui.inverted.menu {
     background-color: #2EAE9B;
 }
