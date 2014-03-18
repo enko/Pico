@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+{% if meta.description %}
+	<meta name="description" content="{{ meta.description }}"> 
+{% endif %}{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+	
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/semantic.min.css" />
+    <link rel="stylesheet" href="{{ theme_url }}/style.css" />
+	
+	<script src="{{ theme_url }}/javascripts/modernizr-2.6.1.min.js"></script>
+    <script src="{{ theme_url }}/javascript/semantic.min.js"></script>
+</head>
+<body>
+    <div class="ui large vertical inverted labeled icon sidebar menu active">
+        <div class="item"><h1><a href="{{ base_url }}">{{ site_title }}</a></h1>
+            {{ at_navigation.navigation }}
+        </div>
+    </div>
+
+	<section id="content">
+		<div class="inner">
+			{{ content }}
+		</div>
+	</section>
+    
+</body>
+</html>

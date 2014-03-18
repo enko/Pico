@@ -7,6 +7,9 @@ $config['site_title'] = 'datenknoten.me';			// Site title
 $config['pages_order_by'] = 'alpha';	// Order pages by "alpha" or "date"
 $config['pages_order'] = 'desc';			// Order pages "asc" or "desc"
 $config['at_navigation']['exclude']['single'] = array('index',);
+$config['theme'] = 'semanticui'; 			// Set the theme (defaults to "default")
+$config['at_navigation']['class'] = 'ui menu inverted';
+$config['at_navigation']['class_a'] = 'ui item';
 
 
 /*

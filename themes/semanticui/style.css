@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Sans'), local('DroidSans'), url('/fonts/droidsans.woff') format('woff');
+}
+
+body {
+    font-family: "Droid Sans"   , Arial, sans-serif;
+    margin-left: 300px !important;
+}
+
+.ui.inverted.menu {
+    background-color: #2EAE9B;
+}
+
+.menu>.item {
+    padding-top: 0 !important;
+    margin-top: 8px;
+}
+
+ul.menu {
+    padding-left: 0;
+}
+
+ul.menu li a {
+    text-align: left;
+}
+
+ul.menu li ul {
+    padding-left: 0;
+}
+
+.ui.menu li ul a {
+    padding-left: 2.5rem !important;
+    display: block;
+}
+
+h1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    min-height: 1rem;
+    line-height: 1.33;
+    font-size: 2rem;
+    padding: 0 0 0.2rem;
+    font-weight: bold;
+    margin: 0 0 1rem;
+}
+
+h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h2 {
+    min-height: 1rem;
+    line-height: 1.33;
+    font-size: 1.75rem;
+}
+
+h2,h3,h4,h5,h6 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 0 0.2rem;
+    font-weight: bold;
+    margin: 0 0 1rem;
+}
